@@ -5,34 +5,13 @@ use reqwest;
 use quick_xml::Reader;
 use quick_xml::events::Event;
 
-// feed
-//   feedResponse
-//     count
-//     feed 
-//       id, name, description, status, usage, daysRange, detailedMessageShown, type
-//     totalCount
-//     activityCount
-//     messages
-//       message
-//         id, messengerId, messengerName, unixTime, messageType, latitude, longitude, dateTime, altitude
-//         messageType - OK, TRACK, EXTREME-TRACK, UNLIMITED-TRACK, NEWMOVEMENT, HELP, HELP-CANCEL, CUSTOM, POI, STOP
-
-
 //   errors
 //     error
 //       code
 //       text
 //        description
 
-// enum SpotTags {
-//   FeedTag,
-//   ErrorTag,
-//   ResponseTag,
-//   CountTag,
-//   StatusTag
-// }
-
-#[derive(Debug)]
+#[derive(Debug,Default)]
 struct FeedInfo {
   id: String,
   name: String,
@@ -41,9 +20,10 @@ struct FeedInfo {
   usage: i16,
   days_range: i16,
   detailed_message_shown: bool,
+  r#type: String,
 }
 
-#[derive(Debug)]
+#[derive(Debug,Default)]
 struct MessageInfo {
   id: String,
   messenger_id: String,
@@ -54,10 +34,10 @@ struct MessageInfo {
   longitude: f32,
   altitude: i32,
   model_id: String,
-  show_custom_msg: bool,
+  show_custom_msg: String,
   date_time: String,
   battery_state: String,
-  hidden: bool,
+  hidden: String,
 }
 
 // https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/0RWqSn8iuUFnoShnsm7Fjh2LaUslTu2nI/message.xml
@@ -70,95 +50,107 @@ fn build_url(feed_id: &str, _page: i16) -> Result<String, Box<dyn Error>> {
   Ok(xml_url)
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn parse_response(xml_content: String) -> Result<(), Box<dyn Error>> {
 
-  // get the feed ID
-  let args: Vec<String> = env::args().collect();
-  if args.len() != 2 {
-    println!("Usage: findmespot xml-feed-id");
-    exit(-1);
-  }
-
-  let feed_id = &args[1];
-  println!("{}", feed_id);
-    
-  // build the findmespot url to get the feed
-  let xml_url = build_url(feed_id, 1)?;
-  
-  // request the feed
-  let response = reqwest::blocking::get(xml_url)?;
-  let xml_content = response.text()?;
 
   // parse the xml response
   let mut reader = Reader::from_str(&xml_content);
   reader.trim_text(true);
 
+  let mut section: Option<&str> = None;
+  let mut feed_info = FeedInfo{..Default::default()};
+  let mut message_info = MessageInfo{..Default::default()};
+
   let mut buf = Vec::new();
+
   loop {
     match reader.read_event_into(&mut buf) {
+
       // exit loop when get to end of file
       Ok(Event::Eof) => break,
 
       Ok(Event::Start(e)) => {
-        // if feed - set section = feed
-          // can ignore feed for now
-          // will map to metadata section of gpx
-            // name -> name
-            // description -> desc
 
-        // if messages = set section = messages
-          // if message = start new message
-          // if 
-          // message (POI) -> wpt
-          // message (OK) -> wpt
-            // altitude -> ele
-            // unixtime -> time
-        match e.name().as_ref() {
-          b"message" => {
-            // println!("element: {:?}", e);
-            println!("----");
-            // clear message
-          },
-          b"messageType" => {
+        match section {
+          Some("feed") => {
+
+            // get text for tag
             let txt = reader
-            .read_text(e.name());
-            println!("type: {}", txt?);
+            .read_text(e.name()).unwrap();
+
+            // assign to struct
+            match e.name().as_ref() {
+              b"id" => feed_info.id = txt.into(),
+              b"name" => feed_info.name = txt.into(),
+              b"description" => feed_info.description = txt.into(),
+              b"status" => feed_info.status = txt.into(),
+              b"usage" => feed_info.usage = txt.parse::<i16>().unwrap(),
+              b"daysRange" => feed_info.days_range = txt.parse::<i16>().unwrap(),
+              b"detailedMessageShown" => feed_info.detailed_message_shown = txt.parse::<bool>().unwrap(),
+              b"type" => feed_info.r#type = txt.into(),
+              _ => (),
+            }
           },
-          b"latitude" => {
+          Some("message") => {
+
+            // get text for tag
             let txt = reader
-            .read_text(e.name());
-            println!("lattitude: {}", txt?);
+            .read_text(e.name()).unwrap();
+
+            match e.name().as_ref() {
+              b"id" => message_info.id = txt.into(),
+              b"messengerId" => message_info.messenger_id = txt.into(),
+              b"messengerName" => message_info.messenger_name = txt.into(),
+              b"unixTime" => message_info.unix_time = txt.parse::<i64>().unwrap(),
+              b"messageType" => message_info.message_type = txt.into(),
+              b"latitude" => message_info.latitude = txt.parse::<f32>().unwrap(),
+              b"longitude" => message_info.longitude = txt.parse::<f32>().unwrap(),
+              b"altitude" => message_info.altitude = txt.parse::<i32>().unwrap(),
+              b"modelId" => message_info.model_id = txt.into(),
+              b"showCustomMsg" => message_info.show_custom_msg = txt.into(),
+              b"dateTime" => message_info.date_time = txt.into(),
+              b"batteryState" => message_info.battery_state = txt.into(),
+              b"hidden" => message_info.hidden = txt.into(),
+              _ => (),
+            }
           },
-          b"longitude" => {
-            let txt = reader
-            .read_text(e.name());
-            println!("longitude: {}", txt?);
+          None => {
+            match e.name().as_ref() {
+              // b"counts" => 
+              b"feed" => {
+                section = Some("feed");
+              },
+              b"message" => {
+                section = Some("message");
+              },
+                _ => (),
+            }
           },
-          b"altitude" => {
-            let txt = reader
-            .read_text(e.name());
-            println!("altitude: {}", txt?);
+          Some(&_) => {
           },
-          b"unixTime" => {
-            let txt = reader
-            .read_text(e.name());
-            println!("unitTime: {}", txt?);
-          },
-          b"dateTime" => {
-            let txt = reader
-            .read_text(e.name());
-            println!("dateTime: {}", txt?);
-          },
-          _ => (),
         }
-        // println!("element: {:?}", e);
-        // dateTime, altitude, lattitude,longitude, unitTime
       },
       // Ok(Event::Text(e)) => {
       //   // println!("value: {:?}",e);
       // },
-      Ok(Event::End(_)) => {
-          // if message then save message details to vector
+      Ok(Event::End(e)) => {
+        // if message then save message details to vector
+        match e.name().as_ref() {
+          b"feed" => {
+            println!("feed: {:?}",feed_info);
+            section = None;
+          },
+          b"message" => {
+            // SAVE MessageInfo to vector
+            println!("message: {:?}",message_info);
+            section = None;
+          },
+          _ => {
+            // error??
+          },
+
+        }
+
       },
 
       Err(e) => return Err(Box::new(e)),
@@ -170,4 +162,28 @@ fn main() -> Result<(), Box<dyn Error>> {
   }
 
   Ok(())
+}
+
+fn main() -> Result<(), Box<dyn Error>> {
+
+  // get the feed ID
+  let args: Vec<String> = env::args().collect();
+  if args.len() != 2 {
+    println!("Usage: findmespot xml-feed-id");
+    exit(-1);
+  }
+
+  let feed_id = &args[1];
+  // println!("{}", feed_id);
+    
+  // build the findmespot url to get the feed
+  let xml_url = build_url(feed_id, 1)?;
+  
+  // request the feed
+  let response = reqwest::blocking::get(xml_url)?;
+  let xml_content = response.text()?;
+
+  let result = parse_response(xml_content);
+
+  result
 }

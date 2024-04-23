@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>23 Great Beaches in Vietnam</name>
+    <description>This is a map by VietnamCoracle.com of 23 Great Beaches in Vietnam. Full guide here: http://vietnamcoracle.com/top-5-beaches-vietnam/</description>
+    <Style id="icon-1521-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1521-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1521-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1521-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1521-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[23 Great Beaches in Southern & Central Vietnam]]></name>
+      <Placemark>
+        <name><![CDATA[1. Vinh Hoa & Tu Nham Beach & Bay]]></name>
+        <description><![CDATA[<img src="https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/ns681u8057d27gnt3tbhve7p3s/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxDYIKykrh74kXGLPfL36x0Iamcvc_uTQ5IldX0UqOOLiF-SHB_gkdVtdckX6II1gRdgMITJwXxEaDxx5xoxHGAXvfhZKnZMnaW5uSLWxa4qe0iQ0hLiWRp5_XLzQ2D5LFP9I1UvUwhhisq5nfuPmq26FOgNgsFehZu9TsdabNKNGFKqQT7GHez5BJC?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#1]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/ns681u8057d27gnt3tbhve7p3s/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxDYIKykrh74kXGLPfL36x0Iamcvc_uTQ5IldX0UqOOLiF-SHB_gkdVtdckX6II1gRdgMITJwXxEaDxx5xoxHGAXvfhZKnZMnaW5uSLWxa4qe0iQ0hLiWRp5_XLzQ2D5LFP9I1UvUwhhisq5nfuPmq26FOgNgsFehZu9TsdabNKNGFKqQT7GHez5BJC?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.2928549,13.5078061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. Cay Men Beach</name>
+        <description><![CDATA[<img src="https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qg4jc5f6bmaqi6kf2dhoqe8ftg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxpyoM--ecfPc9Yp3payj3lneByAJqqAf5DSvoQoFuhLrW1RJ4NVJ-DfA_L7-ilhJImHTao1oZAqqQZ5o9t4WnNrOBz5aM-FLn6oUXpLVwuBygCbfEiCGGJyAaBliK2xAgxR33oxSCLXcIA5WHzvHe7U-wW_phgYVOqkIVs7YJY81KdLfLavgJx1Vek_g?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#2]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qg4jc5f6bmaqi6kf2dhoqe8ftg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxpyoM--ecfPc9Yp3payj3lneByAJqqAf5DSvoQoFuhLrW1RJ4NVJ-DfA_L7-ilhJImHTao1oZAqqQZ5o9t4WnNrOBz5aM-FLn6oUXpLVwuBygCbfEiCGGJyAaBliK2xAgxR33oxSCLXcIA5WHzvHe7U-wW_phgYVOqkIVs7YJY81KdLfLavgJx1Vek_g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            104.3517135,9.6672381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[3. Bai Trang Beach & Mui Dinh Cape]]></name>
+        <description><![CDATA[<img src="https://doc-14-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/nqilfp735mtrmtq1j7mh8li6pk/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzw4RtCCEa07GaYCeMAF2wwzQA4YxAYDUPJJ-H2ieq7YGu7-4PxZeVXOtB_AaS9Hg3KWqaeVmVVibBzL_6P-pQuSQL6YoEszB841zPo4OinIIsBwAcR3UuLU017DlE4d_ORzUcLXghShjqS8QHP1a5f1W-ivmB8ZwHIqlLbiDtCgU8vkZQ2lS0ERiL_LwA?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#3]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/nqilfp735mtrmtq1j7mh8li6pk/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzw4RtCCEa07GaYCeMAF2wwzQA4YxAYDUPJJ-H2ieq7YGu7-4PxZeVXOtB_AaS9Hg3KWqaeVmVVibBzL_6P-pQuSQL6YoEszB841zPo4OinIIsBwAcR3UuLU017DlE4d_ORzUcLXghShjqS8QHP1a5f1W-ivmB8ZwHIqlLbiDtCgU8vkZQ2lS0ERiL_LwA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.0068001,11.3556081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. Bai Nhat Beach</name>
+        <description><![CDATA[<img src="https://doc-14-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/ng1ddf2op29s4hnj377u3tvh3k/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxGCCnszezcAeIVGwKrZV8GXc161XH35drwSntNIiDGieq6_Lw4UYDihIpDv1fBB6PWwJTiRAmjuK0O-V1GlJicOsChFbPbWsbVeZNgh1EMUj_wYQxaGU4xw3yUuk13isu6_3WYZ9zwDsBoHnpH18GQoreTPXE9ShpcBYuFnndGr5I4lMQS3ZenCHMY?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#4]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/ng1ddf2op29s4hnj377u3tvh3k/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxGCCnszezcAeIVGwKrZV8GXc161XH35drwSntNIiDGieq6_Lw4UYDihIpDv1fBB6PWwJTiRAmjuK0O-V1GlJicOsChFbPbWsbVeZNgh1EMUj_wYQxaGU4xw3yUuk13isu6_3WYZ9zwDsBoHnpH18GQoreTPXE9ShpcBYuFnndGr5I4lMQS3ZenCHMY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            106.5957836,8.64603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. Hue to Dong Hoi Beaches</name>
+        <description><![CDATA[<img src="https://doc-04-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/8klq6i84b4g23s6ohmkjdnol4g/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyjH8A8O_uk6PWVNqIHox92KR01ilrNfhE3w2goAi3Ek0a0hA8l4JJg8tT9yM6Yz2n0IiVOEwFiKs4oofILDZO6yOGyPsOGmuxDctQRaRrooQzbNd16FZshTMeFxsU3lR1uDCl_ypXZnA46fphgPUWn_kTu9eyqEi8my883Nzbuh0kd4BaOzAKV6mbk?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#5]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/8klq6i84b4g23s6ohmkjdnol4g/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyjH8A8O_uk6PWVNqIHox92KR01ilrNfhE3w2goAi3Ek0a0hA8l4JJg8tT9yM6Yz2n0IiVOEwFiKs4oofILDZO6yOGyPsOGmuxDctQRaRrooQzbNd16FZshTMeFxsU3lR1uDCl_ypXZnA46fphgPUWn_kTu9eyqEi8my883Nzbuh0kd4BaOzAKV6mbk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            107.2841249,16.8247883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. Bai Ngang Beach</name>
+        <description><![CDATA[<img src="https://doc-04-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/a4m4kjhi0s46s3to7s4sp6nbl8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxcOU7stOXE-BaMhEAI5V-6SgzApr5PXRh_GfrCawUt-rgcNp9wRy5M3AKfnW1Kl8482rJD0FVeiNyzLyxHh5ktJcGygK6PFDtJhBgWqL_t_KogDW57pE9O97iDJ_5GLFO3DU7vAzBqylajZgN3UTsywWeLP4DKS7Z7Hp-lR8YHljXKylOxKVCscH0B?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#6]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/a4m4kjhi0s46s3to7s4sp6nbl8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxcOU7stOXE-BaMhEAI5V-6SgzApr5PXRh_GfrCawUt-rgcNp9wRy5M3AKfnW1Kl8482rJD0FVeiNyzLyxHh5ktJcGygK6PFDtJhBgWqL_t_KogDW57pE9O97iDJ_5GLFO3DU7vAzBqylajZgN3UTsywWeLP4DKS7Z7Hp-lR8YHljXKylOxKVCscH0B?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.0801179,15.4325617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[7. Bai Mon Beach & Vung Ro Bay]]></name>
+        <description><![CDATA[<img src="https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qln3mink20rmn8q68fmp4b9kqs/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzzvjpSs7GRa2N9XWf6Ppeuw8_sQeZYmf1Yg72WNX3UveTfGUOvTlmFJ0BCAq22JRdKjJylH5mQN5uI8CfuUzwY0o5u1dANVKHx6RF58PFP7F_YuEFSG4ArFWSyvQN_wJ9h-DHU3oyxMZm7lDLREebHfiAmP-mMOY2-xNGjuXj0Q4CFZW7ayVTcCtSv7?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#7]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qln3mink20rmn8q68fmp4b9kqs/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzzvjpSs7GRa2N9XWf6Ppeuw8_sQeZYmf1Yg72WNX3UveTfGUOvTlmFJ0BCAq22JRdKjJylH5mQN5uI8CfuUzwY0o5u1dANVKHx6RF58PFP7F_YuEFSG4ArFWSyvQN_wJ9h-DHU3oyxMZm7lDLREebHfiAmP-mMOY2-xNGjuXj0Q4CFZW7ayVTcCtSv7?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.4520668,12.8983019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. Bai Om Beach</name>
+        <description><![CDATA[<img src="https://doc-0g-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/6do9j0v0gap8v1dsept2d1gcfg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyUz5z_TquCUT16Tgvbz-31cXEj1XfFuO3OAWECyxa7M3QIC51pmmmvCWCYUzvVajZZ7zNb3_Vd0Cvvk1f7MiuYCEf019I2rsEeH_WbARqAsEJlCEjIUH36voxLDpB91ReNCX0DlUSetzs26DYaloGGTMa3tfL6gGVlwWZPEkSbyR11tRaU1S6qxLbm?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#8]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/6do9j0v0gap8v1dsept2d1gcfg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyUz5z_TquCUT16Tgvbz-31cXEj1XfFuO3OAWECyxa7M3QIC51pmmmvCWCYUzvVajZZ7zNb3_Vd0Cvvk1f7MiuYCEf019I2rsEeH_WbARqAsEJlCEjIUH36voxLDpB91ReNCX0DlUSetzs26DYaloGGTMa3tfL6gGVlwWZPEkSbyR11tRaU1S6qxLbm?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.2996024,13.4127004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. Cay Sao Beach</name>
+        <description><![CDATA[<img src="https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/cobgv21aa1gc9m90sevc80ldvg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwmhvxUuwipo4sJ8pKcdKxCy3CHfuSwJtanMCtaIxb_RUVPDiGd8OobVDwi1JiamPNvoAIGxnKxCg7J_JB4s2_NeG-QUAk27q1Ii0nLB4rnldFzcIdj3srs8r8kXNe9_G-uoNL3HcJljbxSwvQBQRXJynVeWm3FvkR0ZXxceswK1nnOLiQ-MwSBht6I?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#9]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/cobgv21aa1gc9m90sevc80ldvg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwmhvxUuwipo4sJ8pKcdKxCy3CHfuSwJtanMCtaIxb_RUVPDiGd8OobVDwi1JiamPNvoAIGxnKxCg7J_JB4s2_NeG-QUAk27q1Ii0nLB4rnldFzcIdj3srs8r8kXNe9_G-uoNL3HcJljbxSwvQBQRXJynVeWm3FvkR0ZXxceswK1nnOLiQ-MwSBht6I?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            104.0735985,10.2245516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[10. Cam Lap Promontory & Binh Tien Beach]]></name>
+        <description><![CDATA[<img src="https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/jt13gosgrc6s8cah5qkekepid4/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwEiTVYAJOMcL-3qjM2q8j61FjVaQzyHl_u-kKRT9Oeh95MWctkS4Fw0yIFUOzwLyNjP59nbkmYx_3bZ11uzWAg4xbFqMurXQiu2wz3WZjKO5SQrbcKCsx26adRpsdINTq77wYRFaCv-Xjz5Gnui3o5RrsuvEbB9oV2Jau6GfAD-PVOKMNPX-SxAj0q?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#10]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/jt13gosgrc6s8cah5qkekepid4/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwEiTVYAJOMcL-3qjM2q8j61FjVaQzyHl_u-kKRT9Oeh95MWctkS4Fw0yIFUOzwLyNjP59nbkmYx_3bZ11uzWAg4xbFqMurXQiu2wz3WZjKO5SQrbcKCsx26adRpsdINTq77wYRFaCv-Xjz5Gnui3o5RrsuvEbB9oV2Jau6GfAD-PVOKMNPX-SxAj0q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.1776957,11.839583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[11. Yen Cape & Phu Thuong Beach]]></name>
+        <description><![CDATA[<img src="https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/hfh4l1p720meahahvu48oplbbo/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwRfXZwCmS6kRpMlWSinK4Z0_lNmABzsL0zoPC0OZ8bcFGviPuTAL9h-2Uw7UmHceVqEzOA8bNBlFyAsZNjgGoerFr8vsl_-sBKNoXAO6_3Huk-p3Vq5RSBlmBVKUtyeJ3N_BBGZRnk-nybL7Cv35kbZTXRnsIUJbSiaaqiK8BJwdErh0lvGWGQQ-PU?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#11]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/hfh4l1p720meahahvu48oplbbo/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwRfXZwCmS6kRpMlWSinK4Z0_lNmABzsL0zoPC0OZ8bcFGviPuTAL9h-2Uw7UmHceVqEzOA8bNBlFyAsZNjgGoerFr8vsl_-sBKNoXAO6_3Huk-p3Vq5RSBlmBVKUtyeJ3N_BBGZRnk-nybL7Cv35kbZTXRnsIUJbSiaaqiK8BJwdErh0lvGWGQQ-PU?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.3055033,13.2269179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[12. Hang Cau Beach & Cliffs]]></name>
+        <description><![CDATA[<img src="https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/7ndb3k1vlifiic581cvfdlj15s/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwI-fNHUcj1eRIAzfsNgjm8ZIReeMCIFKCd8ZBdPf9s0J3_5upCWhE9sZVu7NYtdro2BEnNiSXO3no2M-iNr63Iy9gtYmjj2BU9JAbqzU-kZqZWYLxjosTHAkhLOXjBywIra8VWAOh2ZrTKwzDhU5Dxo8nD7F_eLoEzQq7RrIv9y8qnYVtDNM5kFgg6?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#12]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/7ndb3k1vlifiic581cvfdlj15s/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwI-fNHUcj1eRIAzfsNgjm8ZIReeMCIFKCd8ZBdPf9s0J3_5upCWhE9sZVu7NYtdro2BEnNiSXO3no2M-iNr63Iy9gtYmjj2BU9JAbqzU-kZqZWYLxjosTHAkhLOXjBywIra8VWAOh2ZrTKwzDhU5Dxo8nD7F_eLoEzQq7RrIv9y8qnYVtDNM5kFgg6?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.133436,15.3888095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. Rach Tram Beach</name>
+        <description><![CDATA[<img src="https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qk9tvp1sjliiut0crmkgmv41r8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwqRSPCN1UmOp7wfS6FsSj1xohLNJWapNkVZDl7dhEu8IZMmuaUaCXk5x4MTacncujc2S90UF1zdweJfgD-uhRC5TpRCDWAJijirg3WXXEOsCZ5L2xe1AvDEF-1hbNn5DtbmY4AwihlKqM7VZgRCYd5I_4wf19_QUCing95t8wzKqwQXegkKI024x1V?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#13]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/qk9tvp1sjliiut0crmkgmv41r8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwqRSPCN1UmOp7wfS6FsSj1xohLNJWapNkVZDl7dhEu8IZMmuaUaCXk5x4MTacncujc2S90UF1zdweJfgD-uhRC5TpRCDWAJijirg3WXXEOsCZ5L2xe1AvDEF-1hbNn5DtbmY4AwihlKqM7VZgRCYd5I_4wf19_QUCing95t8wzKqwQXegkKI024x1V?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            103.9711762,10.4221434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. Ky Co Beach</name>
+        <description><![CDATA[<img src="https://doc-0o-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/064ns5jiecp12detapf0c1ncn0/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxZvjGvZsXAiIu5ZJmgeRq3L2Pcwb3JQRaraISht5krVb_u7UKF0cNX7rCqlgXFYbRYJNwCryPzpGi5zAhhbgnb6IVDyK0tEYRMd5zYODL_tjyCQHDUX2NVPck-bAPJX9bsDiSPglMnV5bNgNBzE10LfhvxCfmoVSBz0xBl0jh5N5o5hIBe77ojjBON?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#14]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/064ns5jiecp12detapf0c1ncn0/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxZvjGvZsXAiIu5ZJmgeRq3L2Pcwb3JQRaraISht5krVb_u7UKF0cNX7rCqlgXFYbRYJNwCryPzpGi5zAhhbgnb6IVDyK0tEYRMd5zYODL_tjyCQHDUX2NVPck-bAPJX9bsDiSPglMnV5bNgNBzE10LfhvxCfmoVSBz0xBl0jh5N5o5hIBe77ojjBON?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.292248,13.8511085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. Hon Gom Sandbar</name>
+        <description><![CDATA[<img src="https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/u73slqt9h3smqnhgtvoc683dqk/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxex_X6VE80J_t7SrajwEiPqzdCVi5NM3a2OXF_N3XrNPhGGAg0ksrOnFl2WDt3DUo_OeYkTaNEnRhc_ie4md8HiduqQFhIyuC5YH3TBPZ1WC8nv_hPmDO0T24cTvR-NrbaXa_20wqQ3ioRRqhMGaMhFqobF7b36lSjQc5AhKXod9f_9w6uLrWRE8db?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#15]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/u73slqt9h3smqnhgtvoc683dqk/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxex_X6VE80J_t7SrajwEiPqzdCVi5NM3a2OXF_N3XrNPhGGAg0ksrOnFl2WDt3DUo_OeYkTaNEnRhc_ie4md8HiduqQFhIyuC5YH3TBPZ1WC8nv_hPmDO0T24cTvR-NrbaXa_20wqQ3ioRRqhMGaMhFqobF7b36lSjQc5AhKXod9f_9w6uLrWRE8db?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.4346185,12.6414926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. Tam Thanh Beach</name>
+        <description><![CDATA[<img src="https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/jo391uu59uqm9n6v94t4r2io90/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyii52vmby129edMjbXzzphz4BkaqIzQ4JfJJo3gUJeQvZQb1s7W7IzT7LQy6Kp-0DiKFyNTKQEGxSsDtb03idJvs_JInOQ83LjPPikcH0jXZO7KmlYXYkIVM391DIGSUUPjEOEovyezeYkVQGQtfzWBe2Na0M4GXqdby7uL6FxH43Rc_dCxwM5g_fYvQ?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#16]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/jo391uu59uqm9n6v94t4r2io90/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyii52vmby129edMjbXzzphz4BkaqIzQ4JfJJo3gUJeQvZQb1s7W7IzT7LQy6Kp-0DiKFyNTKQEGxSsDtb03idJvs_JInOQ83LjPPikcH0jXZO7KmlYXYkIVM391DIGSUUPjEOEovyezeYkVQGQtfzWBe2Na0M4GXqdby7uL6FxH43Rc_dCxwM5g_fYvQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            108.535938,15.614724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. Bai Rang Beach</name>
+        <description><![CDATA[<img src="https://doc-00-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/r6foa2ktajtlqsm1fr3k4h7keg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzz5-p91JpCSQ6HAaWatMdZIEiC5t5m7_STL3KT8w_r5Svx8P2C-yAJc5eCgvBEd40ex93M2693Qce3K3EQwKx8x1nuq1YTMvAGsFNZAYB-rQqeEWrL_gBmL8hAyrBlvzlR2NGGdoVbO6vutX9PGBI4QhygtTt7L2DsCPJ2dAsB3gnahTkTgmG-p0N3c?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#17]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/r6foa2ktajtlqsm1fr3k4h7keg/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzz5-p91JpCSQ6HAaWatMdZIEiC5t5m7_STL3KT8w_r5Svx8P2C-yAJc5eCgvBEd40ex93M2693Qce3K3EQwKx8x1nuq1YTMvAGsFNZAYB-rQqeEWrL_gBmL8hAyrBlvzlR2NGGdoVbO6vutX9PGBI4QhygtTt7L2DsCPJ2dAsB3gnahTkTgmG-p0N3c?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.2291658,13.6530165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. Ong Lang Beach</name>
+        <description><![CDATA[<img src="https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/hg8rq2nqu2imkjhrpla2sa8i10/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzz324gY9jzo3W-jfMDEt3vub52qreRLmEOt7vd1oJ9PWCgVJmIKPXncLJ2esDnkEL_XX71hY3UNe-6xNrupGgOPynvmFV5mIMcctW7f77v3w1M5IlKvihUKvKeNTIGQnUiGGthSaYvT3llJyYdwlV8awJ9MJrb2MsOpBniunU2FxSuid_Z9GacZkGIX?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#18]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/hg8rq2nqu2imkjhrpla2sa8i10/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzz324gY9jzo3W-jfMDEt3vub52qreRLmEOt7vd1oJ9PWCgVJmIKPXncLJ2esDnkEL_XX71hY3UNe-6xNrupGgOPynvmFV5mIMcctW7f77v3w1M5IlKvihUKvKeNTIGQnUiGGthSaYvT3llJyYdwlV8awJ9MJrb2MsOpBniunU2FxSuid_Z9GacZkGIX?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            103.9343858,10.2596356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[19. Ninh Van Bay & Doc Let Beach]]></name>
+        <description><![CDATA[<img src="https://doc-10-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/3mldq87nfe459c4ok65snfu7fs/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzzhZB4MQnqXhX_sssQg5LsLx_VQl8HYUcrsjfuAFnhM3OFipRCXMkJMvJAzmJF4OAe6WO71RWVrZ5-6rXL1wHAvaciJJDkookAhUMcTWFSIT-P0Hs4rwpsP251CIZ37JCF8Ws-zae14qt3gtkfdyVgxQwxEeyqpUD0N3TarEesEpvoy0hhjqrsQ3s7OkA?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#19]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/3mldq87nfe459c4ok65snfu7fs/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzzhZB4MQnqXhX_sssQg5LsLx_VQl8HYUcrsjfuAFnhM3OFipRCXMkJMvJAzmJF4OAe6WO71RWVrZ5-6rXL1wHAvaciJJDkookAhUMcTWFSIT-P0Hs4rwpsP251CIZ37JCF8Ws-zae14qt3gtkfdyVgxQwxEeyqpUD0N3TarEesEpvoy0hhjqrsQ3s7OkA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            109.3088235,12.3886566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20. Lien Huong Beach</name>
+        <description><![CDATA[<img src="https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/n11emg6gtnnhd3gv4e0bu3ns94/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzx2GFeEn5O3DZIkOCHTS0VwffPR2TIfLb1YV38nF8E32vkwERQbSQkZnGcaj_F43qMCRXU-34Zby0104Vexhu7c6mV7uxJfJgvr_6OiQ9r20bjlzWcKPczjK1W2cYg1VBqm6trxlyiiiZaUykGWaqPD5gnmgtEjlj9JZ2lAYbnzTB6jmpNqT6DiyMPoyg?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#20]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/n11emg6gtnnhd3gv4e0bu3ns94/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzx2GFeEn5O3DZIkOCHTS0VwffPR2TIfLb1YV38nF8E32vkwERQbSQkZnGcaj_F43qMCRXU-34Zby0104Vexhu7c6mV7uxJfJgvr_6OiQ9r20bjlzWcKPczjK1W2cYg1VBqm6trxlyiiiZaUykGWaqPD5gnmgtEjlj9JZ2lAYbnzTB6jmpNqT6DiyMPoyg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            108.6781501,11.1896989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[21. An Bang & My Khe Beaches]]></name>
+        <description><![CDATA[<img src="https://doc-00-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/trbu5glefrk1lbv73ruaa33r20/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwFGAjfzY3BUnAlNZbIZBbdDfABEhCi-czgXrF772mhxCaES_cVsYNjQK1PyYEqLXQNKX6RnPpwSjVM2dOilXoizCRiXKurP5tmZwKNiRJ-ReboqfsTtCisjtz1M3ySlPPxvwPq8vKzOzr3SUqZpqBySE8VLZGqeDh-x3AJ2ZXgTf6kuyKCHbjur3AB?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#21]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/trbu5glefrk1lbv73ruaa33r20/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzwFGAjfzY3BUnAlNZbIZBbdDfABEhCi-czgXrF772mhxCaES_cVsYNjQK1PyYEqLXQNKX6RnPpwSjVM2dOilXoizCRiXKurP5tmZwKNiRJ-ReboqfsTtCisjtz1M3ySlPPxvwPq8vKzOzr3SUqZpqBySE8VLZGqeDh-x3AJ2ZXgTf6kuyKCHbjur3AB?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            108.3393418,15.915021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22. Bai Nho Beach</name>
+        <description><![CDATA[<img src="https://doc-0g-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/fn8k4pjbojnidqv43i7n2pnhe8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxMSf6vkXM5dQ8Ez6Ob9XPK9PQHuK2V1fCsawgBctngx3HW0NrRexi9NXY-yGhfBSFNyU3gM7zcTzRuQ1zHP2UdLD4KEsLC7AK-yfzjr5P2x6lLqRWoa9c8dizjKnVtmojeWPiV0Wz1jkc1cFy6vJjxuNd9LAWgt1xTOiqkAxHwoic8ZvHKo1o8QH6I?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#22]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/fn8k4pjbojnidqv43i7n2pnhe8/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzxMSf6vkXM5dQ8Ez6Ob9XPK9PQHuK2V1fCsawgBctngx3HW0NrRexi9NXY-yGhfBSFNyU3gM7zcTzRuQ1zHP2UdLD4KEsLC7AK-yfzjr5P2x6lLqRWoa9c8dizjKnVtmojeWPiV0Wz1jkc1cFy6vJjxuNd9LAWgt1xTOiqkAxHwoic8ZvHKo1o8QH6I?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            108.9660671,10.512698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[23. Ho Tram & Ho Coc Beaches]]></name>
+        <description><![CDATA[<img src="https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/otai676f6ucmvu9euh0erul158/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyJ1snbHf5nI0zrLKpfkNab0ksgZ-xE5JHhivkdsZADRFY2-Pm7WdA2FsxMUTvf8dSZkvXBGzAh4StlmbWhWFRDHH-mz85K0XrVJ8-mG_oHtg6h9rUsYtwVeStn7ieEou39DF2iqg6LT09D4kvRMjSOMQnFQL1QOM4iJXdCqxoqNuWKYmZKBTZ3V9_q?session=0&fife" height="200" width="auto" /><br><br>Details here: http://vietnamcoracle.com/top-5-beaches-vietnam/#23]]></description>
+        <styleUrl>#icon-1521-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-6c-mymaps.googleusercontent.com/untrusted/hostedimage/la8p4oggjm2m24tueugv6jan6k/otai676f6ucmvu9euh0erul158/1677071639750/b3icJqqdEoVEuSCfyEGZdBeg_nHWVj1o/02669000394267063280/5AI-xGzyJ1snbHf5nI0zrLKpfkNab0ksgZ-xE5JHhivkdsZADRFY2-Pm7WdA2FsxMUTvf8dSZkvXBGzAh4StlmbWhWFRDHH-mz85K0XrVJ8-mG_oHtg6h9rUsYtwVeStn7ieEou39DF2iqg6LT09D4kvRMjSOMQnFQL1QOM4iJXdCqxoqNuWKYmZKBTZ3V9_q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            107.3978778,10.4684784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

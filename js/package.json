@@ -1,0 +1,21 @@
+{
+  "name": "convert_gpx",
+  "version": "0.0.1",
+  "description": "Convert KML and GPX to GeoJSON on the CLI",
+  "main": "index.js",
+  "author": "Athir Nuaimi",
+  "license": "MIT",
+  "bin": {
+    "togeojson": "index.js"
+  },
+  "dependencies": {
+    "@tmcw/togeojson": "^5.6.0",
+    "@xmldom/xmldom": "^0.8.10"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "files": [
+    "index.js"
+  ]
+}
